@@ -1,3 +1,4 @@
+/* font family */
 @font-face {
   font-family: "Karla";
   font-display: swap;
@@ -40,8 +41,15 @@ img {
   padding-right: 20px;
   padding-left: 20px;
 }
+/* header css start */
 
+/* .site-header {
+  position: relative;
+  content: "";
+  z-index: 2;
+} */
 .header-div {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,6 +67,8 @@ img {
 } */
 .nav-list {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
@@ -94,3 +104,101 @@ img {
   color: #fff;
   background-color: #2C2830;
 }
+/* header css exit */
+
+/* main css start */
+
+.intro {
+  background-color: #2D2641;
+}
+.intro-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 105px;
+  padding-bottom: 130px;
+}
+.intro-div::before {
+  position: absolute;
+  background-image: url("./images/groupleft.svg");
+  content: "";
+  z-index: 1;
+  background-repeat:space;
+  width: 698px;
+  height: 650px;
+  top: 414px;
+  left: -668px;
+}
+
+/* .intro-div::after {
+  position: absolute;
+  background-image: url("./images/groupleft.svg");
+  content: "";
+  z-index: 1;
+  background-repeat:no-repeat;
+  width: 698px;
+  height: 650px;
+  right: -427px;
+  bottom: 88px;
+} */
+.intro-left {
+  position: relative;
+  width: 540px;
+  margin-top: 64px;
+}
+.site-title {
+  font-family: "DM Serif Display", "Georgia", serif;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px; 
+  color: #fff;
+}
+.site-title::before {
+  position: absolute;
+  background-image: url("./images/recteng.svg");
+  content: "";
+  width: 150px;
+  height: 1px;
+  left: 0px;
+  top: -63px;
+  background-color: #fff;
+  
+  
+}
+.intro-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 37px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+.intro-plans {
+  margin-bottom: 4px;
+  padding: 13px 28px;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+.intro-plans:hover {
+  color: #2c2830;
+  background-color: #fff;
+}
+.intro-img {
+  position: absolute;
+  top: 105px;
+  right: 0;
+}
+
+/* main css exit */
