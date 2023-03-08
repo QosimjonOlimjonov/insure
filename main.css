@@ -43,11 +43,12 @@ img {
 }
 /* header css start */
 
-/* .site-header {
+.site-header {
   position: relative;
   content: "";
   z-index: 2;
-} */
+  background-color: #fff;
+}
 .header-div {
 
   display: flex;
@@ -130,7 +131,7 @@ img {
   left: -668px;
 }
 
-/* .intro-div::after {
+.intro-div::after {
   position: absolute;
   background-image: url("./images/groupleft.svg");
   content: "";
@@ -140,7 +141,7 @@ img {
   height: 650px;
   right: -427px;
   bottom: 88px;
-} */
+}
 .intro-left {
   position: relative;
   width: 540px;
