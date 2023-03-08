@@ -1,10 +1,31 @@
-
-
+@font-face {
+  font-family: "Karla";
+  font-display: swap;
+  font-weight: 400;
+  src: url("./fonts/karlaregular.woff2") format("woff2"),
+       url("./fonts/karlaregular.woff") format("woff"); 
+}
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-weight: 700;
+  src: url("./fonts/karla700.woff2") format("woff2"),
+       url("./fonts/karla700.woff") format("woff"); 
+}
+@font-face {
+  font-family: "DM Serif Display"; /* Georgia*/
+  font-display: swap;
+  font-weight: 400;
+  src: url("./fonts/dmserifdisplayregular.woff2") format("woff2"),
+       url("./fonts/dmserifdisplayregular.woff") format("woff");
+}
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Karla", "Arial", sans-serif;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -49,7 +70,6 @@ img {
   margin-right: 33px;
 }
 .nav-a {
-  font-weight: 700;
   font-style: normal;
   font-size: 13px;
   line-height: 15px;
@@ -62,7 +82,6 @@ img {
 }
 .header-plans {
   padding: 13px 28px;
-  font-weight: 700;
   font-style: normal;
   font-size: 13px;
   line-height: 15px;
