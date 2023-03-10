@@ -28,6 +28,7 @@ body {
   font-family: "Karla", "Arial", sans-serif;
   font-weight: 700;
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -64,8 +65,7 @@ img {
   display: flex;
   align-items: center;
 }
-/* .header-nav {
-} */
+
 .nav-list {
   display: flex;
   margin-top: 0;
@@ -162,7 +162,7 @@ img {
 }
 .site-title::before {
   position: absolute;
-  background-image: url("./images/recteng.svg");
+  background-image:             url("./images/recteng.svg");
   content: "";
   width: 150px;
   height: 1px;
@@ -203,3 +203,126 @@ img {
 }
 
 /* main css exit */
+
+/* .different {
+} */
+.different-div {
+  position: relative;
+  margin-top: 305px;
+  padding-bottom: 158px;
+}
+.different-h2 {
+  font-family: "DM Serif Display", "Georgia", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 63px;
+  padding-bottom: 214px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
+}
+.different-h2::before {
+  position: absolute;
+  background-image: url("./images/rectengtwo.svg");
+  content: "";
+  width: 150px;
+  height: 1px;
+  top: 0px;
+}
+.different-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+
+}
+.different-items {
+  position: relative;
+  width: 350px;
+}
+.different-h3 {
+  font-family: "DM Serif Display", "Georgia", serif;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+.different-items:first-child:before {
+  position: absolute;
+  background-image: url("./images/chaqmoqicon.svg");
+  content: "";
+  width: 86px;
+  height: 86px;
+  top: -116px;
+}
+.different-items:nth-child(2):before {
+  position: absolute;
+  background-image: url("./images/dolloricon.svg");
+  content: "";
+  width: 86px;
+  height: 86px;
+  top: -116px;
+}
+.different-items:last-child:before {
+  position: absolute;
+  background-image: url("./images/usericon.svg");
+  content: "";
+  width: 86px;
+  height: 86px;
+  top: -116px;
+}
+.different-items-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+/* .we-work-article {
+} */
+.article-div {
+  display: flex;
+  align-items: center;
+  background-color: #2D2641;;
+}
+.article-left {
+}
+.article-h2 {
+  font-family: "DM Serif Display", "Georgia", serif;
+  
+}
+.article-a {
+  text-decoration: none;
+}
+.site-footer {
+}
+.footer-top {
+}
+.footer-logo {
+}
+.footer-logo-img {
+}
+.footer-ins {
+}
+.footer-ins-logo {
+}
+.footer-bottom {
+}
+.footer-bottom-list {
+}
+.bottom-list-strong {
+}
+.bottom-list-list {
+}
+.list-list-items {
+}
+.list-list-a {
+}
