@@ -202,7 +202,7 @@ img {
   right: 0;
 }
 
-/* main css exit */
+
 
 /* .different {
 } */
@@ -287,21 +287,58 @@ img {
   color: #837D88;
 }
 /* .we-work-article {
+  position: relative;
 } */
 .article-div {
+  position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #2D2641;;
-}
-.article-left {
+  margin-bottom: 150px;
+  padding: 69px 80px;
+  background-color: #2D2641;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .article-h2 {
   font-family: "DM Serif Display", "Georgia", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
   
 }
-.article-a {
-  text-decoration: none;
+.article-h2::after {
+  position: absolute;
+  background-image: url("./images/articlegroupright.svg");
+  content: "";
+  width: 765px;
+  height: 714px;
+  top: -218px;
+  right: -331px;
+  z-index: 1;
+  background-repeat:no-repeat;
 }
+.article-a {
+  position: relative;
+  z-index: 2;
+  padding: 13px 25px;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 1.5px solid #fff;
+}
+.article-a:hover {
+  color: #2c2830;
+  background-color: #fff;
+}
+/* main css exit */
 .site-footer {
 }
 .footer-top {
